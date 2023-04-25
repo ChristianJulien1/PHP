@@ -5,5 +5,5 @@
     echo "nombre est positif";
     if($nombre1 == 0 and $nombre2 == 0)
     echo "nombre est égal à 0$";
-    else echo "nombre est négatif"
+    else echo "nombre est négatif";
 ?>

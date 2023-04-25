@@ -26,4 +26,32 @@ $Tab = [
   }
   
   echo "La plus grande valeur dans le tableau est $max";
-  
+
+
+$T = array();
+for ($i = 0; $i < 12; $i++) {
+    for ($j = 0; $j < 8; $j++) {
+        $T[$i][$j] = rand(0, 100);
+    }
+}
+
+echo "Tableau T :\n";
+for ($i = 0; $i < 12; $i++) {
+    for ($j = 0; $j < 8; $j++) {
+        echo $T[$i][$j] . " ";
+    }
+    echo "\n";
+}
+
+$max_value = $T[0][0];
+for ($i = 0; $i < 12; $i++) {
+    for ($j = 0; $j < 8; $j++) {
+        if ($T[$i][$j] > $max_value) {
+            $max_value = $T[$i][$j];
+        }
+    }
+}
+
+echo "La plus grande valeur dans le tableau est : " . $max_value . "\n";
+
+?>
