@@ -1,9 +1,14 @@
 <?php 
 
-$tab1=array("2","3","5");
-$tab2=array("1","2","7","75");
+$tableau1 = [2, 4, 6, 8, 10];
+$tableau2 = [1, 3, 5, 7, 9];
 
-$total = array_merge($tab1, $tab2);
-var_dump($total);
+$tableauResultat = [];
 
+for ($i = 0; $i < count($tableau1); $i++) {
+    $somme = $tableau1[$i] + $tableau2[$i];
+    $tableauResultat[$i] = $somme;
+}
+
+print_r($tableauResultat);
 ?>

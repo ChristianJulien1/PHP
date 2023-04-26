@@ -9,6 +9,6 @@ for($i = 0; $i < 3 ; $i++){
 for($i = 0; $i<count($valeurs) ;$i++){
     $total = $total + $valeurs[$i];
 }
-echo "Total $total";
+echo "Total : $total";
 
 ?>

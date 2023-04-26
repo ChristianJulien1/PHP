@@ -1,21 +1,25 @@
 <?php
 
-$total=0;
-$somme=0;
+$total = 0;
+$somme = 0;
 $notes = [];
-$nbnote=0;
-$nbr=readline('nombre de notes :');
-for($i=0;$i<$nbr;$i++){
+$nbnote = 0;
+$nbr = readline('nombre de notes :');
+
+for($i = 0; $i < $nbr ;$i++){
 $saisie = readline('notes:');
-$notes[$i]=$saisie;
+$notes[$i] = $saisie;
 }
-for($i=0;$i<count($notes);$i++){
-    $somme=$somme+$notes[$i];
+
+for($i = 0; $i <count($notes); $i++){
+    $somme = $somme + $notes[$i];
 }
-$moyenne=$somme/count($notes);
-for($i=0;$i<count($notes);$i++){
-    $tmp=$notes[$i];
-    if($tmp>$moyenne){
+
+$moyenne = $somme/count($notes);
+
+for($i = 0; $i <count($notes); $i++){
+    $tmp = $notes[$i];
+    if($tmp > $moyenne){
        $nbnote++;
     }
 }

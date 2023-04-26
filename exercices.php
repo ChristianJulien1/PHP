@@ -43,6 +43,3 @@ echo "Bravo, vous avez saisi le nombre correct en $nb_essais essais !";
 
 ?>
 
-
-?>
-

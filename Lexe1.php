@@ -21,5 +21,5 @@ foreach ($chomage as $pays => $taux) {
     }
   }
   
-  echo "Le pays avec le taux de chômage le plus faible est $nompays avec un taux de $taux_minimum%.";
+  echo "Le pays avec le taux de chômage le plus faible est $nompays avec un taux de $tauxminimum %.";
   

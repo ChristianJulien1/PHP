@@ -9,6 +9,6 @@
             echo "Plus grand ! ";
         }
     }
-    echo "Vous avez entré le nombre $num.";
+    echo "Vous avez entré le nombre $num";
 
 ?>
